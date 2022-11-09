@@ -61,7 +61,7 @@
         function grow() {
     var r = parseInt(document.getElementById("rows").value);
     var c = parseInt(document.getElementById("cols").value);
-    var l = ["https://github.com/BarathPrince/images-/blob/main/grape.jfif", "https://github.com/BarathPrince/images-/blob/main/orange.jfif"];
+    var l = ["https://efresh.com/sites/default/files/Strawberries-on-white-background.jpg","https://cdn.britannica.com/22/187222-050-07B17FB6/apples-on-a-tree-branch.jpg"];
     //document.getElementById("garden").innerHTML = null;
     var garden = document.getElementById("garden");
     for (let i = 0; i < r; i++) {
@@ -118,7 +118,7 @@
     var tail = document.getElementById("num_tails");
     var h = parseInt(head.innerHTML);
     var t = parseInt(tail.innerHTML);
-    var l = ["https://github.com/BarathPrince/images-/blob/main/Head.jfif", "https://github.com/BarathPrince/images-/blob/main/Tail.jfif"];
+    var l = ["https://qph.cf2.quoracdn.net/main-qimg-9c81a54813716fccd8e3608ab2f51dcf-lq", "https://qph.cf2.quoracdn.net/main-qimg-148ae81e6fe0500e130fb547026a9b26-lq"];
     var s = Math.floor(Math.random()*2);
     if (l[s]==l[0]) {
         head.innerHTML = h+1;
@@ -131,7 +131,7 @@
     <fieldset align="center">
             <legend><h1>Heads or Tails</h1></legend>
             <div>
-                <figure><img src="https://github.com/BarathPrince/images-/blob/main/Head.jfif" id="coin" height="200px"
+                <figure><img src="https://qph.cf2.quoracdn.net/main-qimg-9c81a54813716fccd8e3608ab2f51dcf-lq" id="coin" height="200px"
                 width="200px"><br></figure>
             </div>
             <button onclick="flip()" style="margin:5px 0; padding: 5px 10px">Flip</button>
